@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: 75px 150px;
+    background-color: #F9F4E8;
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 1.1em;
+}
+
+.grey-text {
+    color: #6C6B6A;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.hiring-btn {
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #EAB351, #EA5174);
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 7px 14px;
+    margin-left: 20px;
+}
+
+.waitlist-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #4977EA;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.main-container {
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-section {
+    width: 500px;
+}
+
+.info-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+    width: 110%;
+    margin-bottom: 10px;
+}
+
+.info-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #6C6B6A;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.unsub-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.unsub-info p {
+    margin-left: 15px;
+}
+
+.image-stack-container {
+    width: 400px;
+    height: 450px;
+}
+
+.image-stack {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.image-stack-one, .image-stack-two, .image-stack-three, .image-stack-four {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.image-stack-one {
+    transform: rotate(-45deg)
+}
+
+.image-stack-two {
+    transform: rotate(-30deg)
+}
+
+.image-stack-three {
+    transform: rotate(-15deg)
+}
+
+.image-stack-four {
+    transform: rotate(0);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-questions {
+    margin-left: 15px;
+}
+
